@@ -12,6 +12,7 @@
   },
   "devDependencies": {},
   "scripts": {
+    "test":"echo\"ErrorL no test specified\" && exit 1",
     "build": "webpack",
     "build:watch": "webpack --watch",
     "build:production": "webpack -p"
