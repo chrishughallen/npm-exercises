@@ -1,0 +1,29 @@
+{
+  "name": "npm-exercises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack-babel.config.js",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "jquery": "^3.3.1",
+    "webpack": "^3.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "webpack",
+    "build:watch": "webpack --watch",
+    "build:production": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrishughallen/npm-exercises.git"
+  },
+  "author": "Chris Allen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrishughallen/npm-exercises/issues"
+  },
+  "homepage": "https://github.com/chrishughallen/npm-exercises#readme"
+}
